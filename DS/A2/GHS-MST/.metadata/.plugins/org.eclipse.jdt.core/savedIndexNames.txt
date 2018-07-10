@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+/MY_FILES/PROJECTS/DS/ASSIGN-2/CODE/.metadata/.plugins/org.eclipse.jdt.core
+1175494123.index

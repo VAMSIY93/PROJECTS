@@ -1,0 +1,86 @@
+package main
+
+import (
+	"fmt"
+	"time"
+	"math/rand"
+	"strconv"
+)
+
+type Node struct {
+	nodeId int
+	alive bool
+	txn int
+}
+
+/*type NodeRun interface {
+	run()
+}
+
+func start(node Node, pipe []chan string, id int) {
+	node.run(pipe, id)
+}*/
+
+func (node Node) performTransaction(channel [10]chan string) {
+	fmt.Println("nodeId: ",node.nodeId)
+}
+
+func (node Node) run(channel [10]chan string, n int) {
+	
+	/*if node.nodeId==0 {
+		for ;true; {
+			msg:=<-channel[0]
+			fmt.Println(msg)
+		}
+		fmt.Println("Ending")
+	}*/
+
+	var count int = 0
+
+	for ;true; {
+		var value = rand.Intn(20)
+		if value%5==0 {
+			node.performTransaction(channel)
+		}
+
+
+		count++
+		if value%5==0 {
+			fmt.Println("Entered ",value)
+			var transaction = strconv.Itoa(node.nodeId)+"-"+strconv.Itoa(node.txn+1)
+			fmt.Println(transaction)
+			node.txn++
+			channel[0]<-transaction
+		}
+
+		if count==40 {
+			fmt.Println("Breaking")
+			break
+		} 
+	}
+}
+
+func main() {
+
+	//Variables and Data
+	var n int
+
+	fmt.Print("Enter Number of Nodes: ")
+	fmt.Scanf("%d",&n)	
+
+	//Variables
+	var channel = [10]chan string{}
+	
+	for i:=0;i<n;i++ {
+		channel[i] = make(chan string,1)
+	}
+
+	//Threads
+	var nodeList = [10]Node{}
+	for i:=0;i<n;i++ {
+		node := Node{i, true, 0}
+		nodeList[i] = node
+		go node.run(channel, n)
+	}
+	time.Sleep(time.Second*8)
+}

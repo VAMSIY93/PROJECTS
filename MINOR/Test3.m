@@ -1,0 +1,12 @@
+img=imread('E.jpg');
+gray=rgb2gray(img);
+[Gmag,~]=imgradient(gray,'sobel');
+gradimg = uint8(Gmag);
+[r,c]=size(gray);
+mask=zeros(r,c);
+mask(300:r-201,250:c-451)=ones(r-500,c-700);
+%imshow(mask);
+bw=activecontour(gray,mask,1000);
+imtool(bw);
+%bin=im2bw(img);
+imtool(gradimg);

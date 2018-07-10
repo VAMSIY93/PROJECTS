@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+	<html> 
+	  <head>
+	  <link rel="stylesheet" href="css/main.css" type="text/css" />
+<%if(session.getAttribute("emailid")==null)
+{
+	response.sendRedirect("login.jsp");
+}
+%> 
+	  <title>upload</title>
+</head>
+ <body>
+ <div id="wrap"><!-- wrap starts here -->
+	<jsp:include page="schoolheader.jsp"></jsp:include>				
+	
+	<jsp:include page="schoolsidebar.jsp"></jsp:include>	
+		
+	<div id="main">
+ 
+	        		<form id="ContactForm" action="upload_student.jsp" method="post" enctype="multipart/form-data">
+                          <div class="wrapper"> <strong>Upload A File*</strong>
+                              <div class="bg">
+                                <input type="file" name="file" id="myFile"/><span id="fileerror" style="color:red"></span>
+                              </div>
+                          </div>
+                            
+                            <p>
+                            <input type="submit" value="upload" />
+                            </p>
+                          
+                    </form>
+                    </div>	
+	
+	
+</div><!-- wrap ends here -->	
+	
+	<jsp:include page="footer.jsp"></jsp:include>
+               
+</body>
+</html>

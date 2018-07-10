@@ -1,0 +1,15 @@
+7
+vrp
+0.2 0.2 0.6
+eye
+0 0 -3
+up
+0 1 0
+width
+0.8
+height
+0.8
+near
+-2
+far
+1

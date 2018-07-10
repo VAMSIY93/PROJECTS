@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">LMS</string>
+    <string-array name="student_array">
+        <item>Search</item>
+        <item>Show Issued</item>
+        <item>Show Returned</item>
+        <item>Show Requested</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="admin_array">
+        <item>Search</item>
+        <item>Show Requested</item>
+        <item>Show Issued</item>
+        <item>User Mgmt.</item>
+        <item>Resource Mgmt.</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="search_type">
+        <item>All</item>
+        <item>Books</item>
+        <item>Papers</item>
+        <item>Journals</item>
+    </string-array>
+    <string-array name="res_type">
+        <item>Books</item>
+        <item>Papers</item>
+        <item>Journals</item>
+    </string-array>
+    <string-array name="add_del">
+        <item>Add</item>
+        <item>Delete</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

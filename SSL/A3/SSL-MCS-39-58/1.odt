@@ -1,0 +1,728 @@
+﻿1. FLAW FINDER:-
+
+Flawfinder version 1.27, (C) 2001-2004 David A. Wheeler.
+Number of dangerous functions in C/C++ ruleset: 160
+Examining Soccer-2k15.cpp
+Soccer-2k15.cpp:144:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:1756:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1759:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1762:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1765:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1768:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1771:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1774:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1777:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1780:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:1783:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2495:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2575:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2576:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2583:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2590:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2597:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2604:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2623:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2628:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2629:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2638:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2641:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2700:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2704:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2705:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2706:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2709:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2712:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2713:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2714:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2717:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2719:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2720:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2721:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2728:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2730:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2731:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2732:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2737:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2738:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2739:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2757:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2759:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2764:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2766:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2770:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2772:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2776:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2778:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2786:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2788:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2792:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2793:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2794:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2839:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2856:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2857:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:2976:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:2978:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:3018:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:3020:  [4] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused). 
+Soccer-2k15.cpp:3058:  [4] (shell) system:
+  This causes a new program to execute and is difficult to use safely.
+  try using a library call that implements the same functionality if
+  available. 
+Soccer-2k15.cpp:3546:  [4] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). 
+Soccer-2k15.cpp:65:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:67:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:68:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:69:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:70:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:71:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:80:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:87:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:88:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:89:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:125:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:138:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:1752:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:1753:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+Soccer-2k15.cpp:1754:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+Soccer-2k15.cpp:1755:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1758:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1761:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1764:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1767:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1770:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1773:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1776:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1779:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:1782:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2489:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2505:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2513:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2622:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2636:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+Soccer-2k15.cpp:2637:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+Soccer-2k15.cpp:2640:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2658:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2674:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2675:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2676:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2677:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2678:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2679:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2680:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2681:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2682:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2683:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2697:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2698:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2699:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2707:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2708:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2715:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2716:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2722:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2722:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2725:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2726:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2733:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2733:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2733:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2735:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2736:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2740:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2744:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2750:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2751:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+Soccer-2k15.cpp:2752:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+Soccer-2k15.cpp:2755:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2756:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2762:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2763:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2768:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2769:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2774:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2775:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2784:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2785:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2833:  [2] (integer) atoi:
+  Unless checked, the resulting number can exceed the expected range. 
+  If source untrusted, check both minimum and maximum, even if the input
+  had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended). 
+Soccer-2k15.cpp:2852:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2853:  [2] (buffer) strcpy:
+  Does not check for buffer overflows when copying to destination.
+  Consider using strncpy or strlcpy (warning, strncpy is easily misused). Risk
+  is low because the source is a constant string.
+Soccer-2k15.cpp:2855:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+Soccer-2k15.cpp:2974:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2975:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:2977:  [2] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant string.
+Soccer-2k15.cpp:2990:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:2999:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:3016:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:3017:  [2] (buffer) sprintf:
+  Does not check for buffer overflows. Use snprintf or vsnprintf. Risk
+  is low because the source has a constant maximum length.
+Soccer-2k15.cpp:3512:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:3513:  [2] (buffer) char:
+  Statically-sized arrays can be overflowed. Perform bounds checking,
+  use functions that limit length, or ensure that the size is larger than
+  the maximum possible length. 
+Soccer-2k15.cpp:1757:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1760:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1763:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1766:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1769:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1772:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1775:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1778:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1781:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:1784:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2477:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2494:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2553:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2561:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2606:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2629:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2635:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2639:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2649:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2671:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2706:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2709:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2714:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2717:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2721:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2728:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2732:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2737:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2739:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2758:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2760:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2765:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2767:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2771:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2773:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2777:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2779:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2787:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2789:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+Soccer-2k15.cpp:2794:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2838:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2840:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2842:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2865:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2867:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2944:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2955:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:2966:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated (it could cause a
+  crash if unprotected). 
+Soccer-2k15.cpp:3019:  [1] (buffer) strcat:
+  Does not check for buffer overflows when concatenating to destination.
+  Consider using strncat or strlcat (warning, strncat is easily misused).
+  Risk is low because the source is a constant character.
+
+Hits = 200
+Lines analyzed = 3579 in 0.62 seconds (30352 lines/second)
+Physical Source Lines of Code (SLOC) = 3568
+Hits@level = [0]   0 [1]  49 [2]  87 [3]   0 [4]  64 [5]   0
+Hits@level+ = [0+] 200 [1+] 200 [2+] 151 [3+]  64 [4+]  64 [5+]   0
+Hits/KSLOC@level+ = [0+] 56.0538 [1+] 56.0538 [2+] 42.3206 [3+] 17.9372 [4+] 17.9372 [5+]   0
+Minimum risk level = 1
+Not every hit is necessarily a security vulnerability.
+There may be other security vulnerabilities; review your code!

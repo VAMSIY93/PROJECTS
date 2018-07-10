@@ -1,0 +1,4 @@
+3
+professor,subject
+student,subject
+subjectDescription,class

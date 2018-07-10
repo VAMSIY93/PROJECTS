@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.googlecode.goclipse.launch.goLaunchType">
+<stringAttribute key="buildCommand" value=""/>
+<booleanAttribute key="buildCommand_UseDefault" value="false"/>
+<stringAttribute key="buildTarget" value="build"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/DistributedLedger"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="programArguments" value=""/>
+<booleanAttribute key="programPath_UseDefault" value="true"/>
+<stringAttribute key="project" value="DistributedLedger"/>
+</launchConfiguration>

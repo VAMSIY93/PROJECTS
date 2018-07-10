@@ -1,0 +1,7 @@
+6 10
+M	-	D1	-	-	-	-	-	-	-  
+C	L3	C	L3	C	L3	C	L3	-	-  
+C	L3	C	L3	C	L3	C	L3	-	-  
+C	L3	C	L3	C	L3	C	L3	-	-  
+C	L3	C	L3	C	L3	C	L3	-	-
+-	-	-	-	-	-	-	-	-	-

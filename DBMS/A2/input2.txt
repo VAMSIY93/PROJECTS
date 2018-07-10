@@ -1,0 +1,1 @@
+project select Student.ID,College.CName,College.CPoints Student,College College.CPoints=Student.Marks,Student.ID<20

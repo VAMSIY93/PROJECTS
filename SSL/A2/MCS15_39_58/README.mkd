@@ -1,0 +1,35 @@
+Pastry
+======
+
+<b>Pastry</b> implements a Pastry DHT using Pthread Library
+
+The operations supported are:
+
+* help 			: Provides a list of command and their usage details.
+* port <x>		:  Sets the port number   !SHOULD ENTER ONLY ONCE..
+* create 		: creates the Pastry.
+* join <x:p>		: Joins the Pastry with x address and p port.
+* put <key> <value>	: inserts the given <key,value> pair in the Pastry.
+* get <key>		: returns the value corresponding to the key, if one was previously inserted in the node.
+* lset          :  Prints the LeafSet of the current node
+* nset          :  Prints the NieghbourhoodSet of the current node
+* routetable    :  Prints the RouteTable of the current node
+* dump			: displays all information pertaining to calling node.
+* mykeys        :  Prints my key values
+* quit			: Quits the node from the Pastry.
+* shutdown      : Shuts Down the entire Pastry network.
+* lset <x:p>    : Prints the LeafSet of node with x address and p port
+* nset <x:p>    : Prints the NeighbourhoodSet of node with x address and p port
+* routetable <x:p>:Prints the routetable of node with x address and p port
+* dump <x:p>    : Prints all the information pertaining to a node with address x and port p
+* finger		    : List of addresses of all Nodes in the Pastry
+* dumpall		: All information of all the nodes.
+* getall D1-D2  : Getall Hashes from D1 to D2.
+-----
+
+
+<b>Build & run the code</b>
+
+To build the code run 'make' from inside this directory.
+
+To run, after compiling the code, run './pastry' for Normal Mode and run './pastry --sat' for Satellite mode from within the terminal.

@@ -1,0 +1,4 @@
+project select sailor.sid sailor
+project select sailor.sid,sailor.age reserve,sailor,boat reserve.sid=sailor.sid,boat.bid=reserve.bid,boat.bcolor=blue
+project select sailor.sid sailor,reserve sailor.sid=reserve.sid,sailor.age<25
+project select sailor.sname,sailor.age,sailor.sid,reserve.sid,boat.bcolor sailor,reserve,boat sailor.sid=reserve.sid,boat.bid=reserve.bid,boat.bcolor=blue

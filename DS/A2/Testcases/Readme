@@ -1,0 +1,20 @@
+The input testcases are in files:
+input1.txt with 100 nodes and 10% edges(around 500)
+input2.txt with 100 nodes and 40% edges (around 2000)
+input3.txt with 200 nodes and 20% edges (around 4000)
+
+The output for the input testcases are in files:
+output1.txt 
+output2.txt
+output3.txt
+
+The output files are sorted in ascending order of their weight.
+
+The format of the the input/ output files :
+	nodeid1,nodeid2:weight
+where nodeid1 < nodeid2 and each egde is counted only once
+
+
+The output of the implementation can be checked against the output provided using the
+script provided. Command for comparing two files:
+	make

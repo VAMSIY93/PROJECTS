@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Edge.java&apos;&#x0A;- Original project: &apos;PastryDHT&apos;&#x0A;- Destination element: &apos;Edge.java&apos;&#x0A;- Original elements:&#x0A;     Message.java&#x0A;     MessageQueue.java" description="Copy compilation units" destination="=GHS-MST/src&lt;{Edge.java" element1="/src&lt;{Message.java" element2="/src&lt;{MessageQueue.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1489867404764" units="2" version="1.0"/>
+</session>

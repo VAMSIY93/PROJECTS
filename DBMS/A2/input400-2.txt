@@ -1,0 +1,7 @@
+insert S 300,raju,25
+delete S name=raju
+update B bid=5 color=green
+project select S.name S,R S.sid=R.sid,S.age<25 intersection select S.name R,S,B R.sid=S.sid,B.bid=R.bid,B.color=blue
+project select S.name S,R S.sid=R.sid,S.age>20 union select S.name S,R S.sid=R.sid,S.age<25
+project select S.name,S.age S,B,R S.sid=R.sid,B.bid=R.bid,B.color=blue intersection select S.name,S.age S,B,R S.sid=R.sid,B.bid=R.bid,B.color=red
+project select S.name,B.bid S,B,R S.sid=R.sid,B.bid=R.bid,B.color=blue union select S.name,R.bid S,R S.sid=R.sid,S.age<25

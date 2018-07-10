@@ -1,0 +1,5 @@
+4
+Employee,EMPLOYEE_NUMBER
+Employee,OFFICE_CODE
+Activities,STUDENT
+Activities,MARKS

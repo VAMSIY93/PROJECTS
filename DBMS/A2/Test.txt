@@ -1,0 +1,2 @@
+project select sailor.sname,sailor.age sailor sailor.age>60,sailor.age>65
+project select sailor.age sailor sailor.age>=22 intersection select sailor.age sailor sailor.age<69

@@ -1,0 +1,7 @@
+6
+Offices,OFFICE_CODE
+Offices,CITY
+Employee,EMPLOYEE_NUMBER
+Employee,OFFICE_CODE
+Customers,CUSTOMER_NAME
+Customers,EMNPLOYEE_NUMBER
